@@ -1,4 +1,5 @@
-# Sistem Login Super Aman (PHP + MySQL)
+# Sistem Login (PHP + MySQL)
+By Ahmad Riko Dyansyah
 
 Sistem login demo dengan berbagai lapisan keamanan (defense-in-depth).
 Ditujukan untuk pembelajaran/pengembangan lokal — sesuaikan lagi sebelum dipakai produksi.
