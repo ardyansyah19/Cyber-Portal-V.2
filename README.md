@@ -4,7 +4,7 @@ By Ahmad Riko Dyansyah
 Sistem login demo dengan berbagai lapisan keamanan (defense-in-depth).
 Ditujukan untuk pembelajaran/pengembangan lokal — sesuaikan lagi sebelum dipakai produksi.
 
-## 🆕 Fitur Berbagi Dokumen Terenkripsi
+## Fitur Berbagi Dokumen Terenkripsi
 
 Setiap dokumen (PDF/DOC/DOCX) dienkripsi dengan **AES-256-GCM** dan dilindungi password unik yang ditentukan pengirim. Tanpa password itu, dokumen tidak bisa dibuka oleh siapa pun.
 
