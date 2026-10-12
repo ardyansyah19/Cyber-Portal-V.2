@@ -23,5 +23,20 @@ require_login(); // tolak akses jika belum login
     <p><a href="my_documents.php" style="color:#93c5fd">📂 Dokumen Saya</a></p>
     <a class="btn" href="logout.php">Logout</a>
   </div>
+    <div class="card">
+    <h1>✅ Selamat datang, <?= htmlspecialchars($_SESSION['username']) ?>!</h1>
+    <p>Role Anda: <strong><?= htmlspecialchars($_SESSION['role']) ?></strong></p>
+    <p>Anda berhasil login melalui sistem yang menerapkan hashing password, proteksi CSRF, rate limiting, dan session hardening.</p>
+    <p><a href="upload_document.php" style="color:#93c5fd">📤 Bagikan Dokumen Terenkripsi</a></p>
+    <p><a href="my_documents.php" style="color:#93c5fd">📂 Dokumen Saya</a></p>
+    <a class="btn" href="logout.php">Logout</a>
+  </div>  <div class="card">
+    <h1>✅ Selamat datang, <?= htmlspecialchars($_SESSION['username']) ?>!</h1>
+    <p>Role Anda: <strong><?= htmlspecialchars($_SESSION['role']) ?></strong></p>
+    <p>Anda berhasil login melalui sistem yang menerapkan hashing password, proteksi CSRF, rate limiting, dan session hardening.</p>
+    <p><a href="upload_document.php" style="color:#93c5fd">📤 Bagikan Dokumen Terenkripsi</a></p>
+    <p><a href="my_documents.php" style="color:#93c5fd">📂 Dokumen Saya</a></p>
+    <a class="btn" href="logout.php">Logout</a>
+  </div>
 </body>
 </html>
