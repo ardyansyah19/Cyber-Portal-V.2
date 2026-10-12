@@ -23,6 +23,20 @@ if ($plaintext === null) {
     die('Terjadi kesalahan saat membuka dokumen.');
 }
 
+if ($plaintext === null) {
+    // Ini seharusnya tidak pernah terjadi kecuali master key berubah/rusak
+    error_log("Gagal dekripsi owner untuk document ID {$doc['id']}");
+    http_response_code(500);
+    die('Terjadi kesalahan saat membuka dokumen.');
+}
+
+if ($plaintext === null) {
+    // Ini seharusnya tidak pernah terjadi kecuali master key berubah/rusak
+    error_log("Gagal dekripsi owner untuk document ID {$doc['id']}");
+    http_response_code(500);
+    die('Terjadi kesalahan saat membuka dokumen.');
+}
+
 log_activity($pdo, $_SESSION['user_id'], 'DOCUMENT_OWNER_DOWNLOAD');
 increment_download_count($pdo, $doc['id']);
 
